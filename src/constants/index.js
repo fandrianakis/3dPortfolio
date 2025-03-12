@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    bnbpro,
   } from "../assets";
   
   export const navLinks = [
@@ -247,6 +248,27 @@ import {
       ],
       image: tripguide,
       source_code_link: "https://konne.gr/",
+    },
+    {
+      name: "Booking Management Service",
+      description:
+        "BnBpro is a professional Airbnb and Booking.com property management service website that helps property owners maximize their rental income while minimizing their time investment. ",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Vite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: bnbpro,
+      source_code_link: "https://airbnb-management-hub.vercel.app/",
     },
   ];
   
