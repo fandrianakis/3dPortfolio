@@ -24,6 +24,7 @@ import {
     tripguide,
     threejs,
     bnbpro,
+    movieland,
   } from "../assets";
   
   export const navLinks = [
@@ -248,6 +249,27 @@ import {
       ],
       image: tripguide,
       source_code_link: "https://konne.gr/",
+    },
+    {
+      name: "Movie Database Application",
+      description:
+        "A React application for searching and displaying movie information from an external database using the OMDb API.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Axios",
+          color: "green-text-gradient",
+        },
+        {
+          name: "OMDb API",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: movieland,
+      source_code_link: "https://github.com/fandrianakis/MovieLandReactProject.git",
     },
     {
       name: "Booking Management Service",
