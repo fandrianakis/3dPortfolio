@@ -1,0 +1,2 @@
+cd C:\Users\fotis\Desktop\3d_portfolio
+npm run dev
