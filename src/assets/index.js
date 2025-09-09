@@ -31,6 +31,8 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import bnbpro from "./bnbpro.png";
 import movieland from "./movieland.png";
+import armomikat from "./armomikat.png";
+import resumeapp from "./resumeapp.jpg";
 
 export {
   logo,
@@ -63,4 +65,6 @@ export {
   tripguide,
   bnbpro,
   movieland,
+  armomikat,
+  resumeapp,
 };

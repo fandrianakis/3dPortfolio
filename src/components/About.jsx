@@ -47,12 +47,7 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         
-        I am an experienced website creator specializing in WordPress, 
-        with additional knowledge in web development using technologies
-        like React, Node.js, and Three.js. I am a fast learner and work
-        closely with clients to deliver efficient, scalable, 
-        and user-friendly solutions that meet their real-world needs.
-         Let's collaborate to bring your ideas to life!
+        I am a self-taught junior React developer with a strong foundation in website creation. I started my journey by building websites with WordPress, completing several projects that honed my skills in delivering functional and user-friendly solutions. Now, I am expanding my expertise into JavaScript, TypeScript, and React, eager to create dynamic and modern web applications. I enjoy learning fast, embracing new challenges, and collaborating with clients to turn ideas into reality.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

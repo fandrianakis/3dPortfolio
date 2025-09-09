@@ -25,6 +25,8 @@ import {
     threejs,
     bnbpro,
     movieland,
+    armomikat,
+    resumeapp,
   } from "../assets";
   
   export const navLinks = [
@@ -230,6 +232,24 @@ import {
       source_code_link: "https://industrialsafety.gr/",
     },
     {
+      name: "Residential & Commercial Renovation",
+
+      description:
+      "Specialize in home and commercial renovations, offering solutions with high aesthetics and durability." ,     
+      tags: [
+        {
+          name: "WordPress",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Elementor",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: armomikat,
+      source_code_link: "https://armonikat.com/",
+    },
+    {
       name: "Maritime Community Platform",
       description:
         "A comprehensive platform offering maritime professionals information, services, job listings, and educational resources to support their careers in the shipping industry. ",
@@ -281,7 +301,7 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "Vite",
+          name: "React + Vite",
           color: "green-text-gradient",
         },
         {
@@ -291,6 +311,27 @@ import {
       ],
       image: bnbpro,
       source_code_link: "https://airbnb-management-hub.vercel.app/",
+    },
+    {
+      name: "ATS Resume Checker | API OpenAI",
+      description:
+        "A modern web application that analyzes uploaded resumes (PDF or DOCX) using AI and delivers detailed feedback. The app helps users understand and improve their resumes based on advanced language processing.",
+      tags: [
+        {
+          name: "Vite",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Node.js + Express",
+          color: "green-text-gradient",
+        },
+        {
+          name: "OpenAI GPT-4 + pdf-parse, mammoth",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: resumeapp,
+      source_code_link: "https://github.com/fandrianakis/resume-checker-app.git",
     },
   ];
   
