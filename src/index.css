@@ -126,6 +126,19 @@
   transform: translateZ(0);
 }
 
+/* Mobile-specific styles for very small screens */
+@media (max-width: 400px) {
+  .mobile-optimized {
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+  }
+  
+  .mobile-card {
+    max-width: calc(100vw - 1.5rem) !important;
+    margin: 0 auto;
+  }
+}
+
 @keyframes mulShdSpin {
   0%,
   100% {
