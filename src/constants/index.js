@@ -27,6 +27,7 @@ import {
     movieland,
     armomikat,
     resumeapp,
+    heroimage,
   } from "../assets";
   
   export const navLinks = [
@@ -332,6 +333,27 @@ import {
       ],
       image: resumeapp,
       source_code_link: "https://github.com/fandrianakis/resume-checker-app.git",
+    },
+    {
+      name: "CrewBot | AI Interview Platform",
+      description:
+        "CrewBot is an AI-powered web app that helps seafarers prepare for interviews through voice simulations, personalized questions, and automated feedback based on maritime standards.",
+      tags: [
+        {
+          name: "Vapi SDK",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Node.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Firebase Database",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: heroimage,
+      source_code_link: "https://facode-interview-platform.vercel.app/",
     },
   ];
   
